@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm:*)",
+      "WebSearch",
+      "WebFetch(domain:developer.apple.com)",
+      "WebFetch(domain:static1.squarespace.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
