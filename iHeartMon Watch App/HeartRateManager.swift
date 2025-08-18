@@ -88,7 +88,7 @@ class HeartRateManager: NSObject, ObservableObject {
         }
         currentHeartRate = testRates.first ?? 72
         
-        // Simulate changing heart rate every 5 seconds
+        // Simulate changing heart rate every 5 seconds for testing color themes
         simulationTimer = Timer.scheduledTimer(withTimeInterval: 5.0, repeats: true) { [weak self] _ in
             guard let self = self else { return }
             let randomRate = Int.random(in: 60...180)

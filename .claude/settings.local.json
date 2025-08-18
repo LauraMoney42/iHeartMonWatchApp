@@ -4,9 +4,15 @@
       "Bash(rm:*)",
       "WebSearch",
       "WebFetch(domain:developer.apple.com)",
-      "WebFetch(domain:static1.squarespace.com)"
+      "WebFetch(domain:static1.squarespace.com)",
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "Bash(cat:*)"
     ],
     "deny": [],
-    "ask": []
+    "ask": [],
+    "additionalDirectories": [
+      "/Users/lauramoney/Documents/Git"
+    ]
   }
 }
